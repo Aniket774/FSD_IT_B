@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="/CSS/reg-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="reg-form">
+            <h2 style="color: white;">Student Registration Form</h2>
+            <form action="#" name="register" id="register" method="post">
+                <label for="sname" style="color: white;">Name:</label><br>
+                <input type="text" name="sname" id="sname" placeholder="Enter Student Name"/><br>
+                
+                <label for="fname" style="color: white;">Father's Name:</label><br>
+                <input type="text" name="fname" id="fname" placeholder="Enter Father's Name"/><br>
+                
+                <label for="mname" style="color: white;">Mother's Name:</label><br>
+                <input type="text" name="mname" id="mname" placeholder="Enter Mother's Name"/><br>
+                
+                <label for="gender" style="color: white;">Gender:</label><br>
+                <input type="radio" name="gender" value="male" checked/> Male
+                <input type="radio" name="gender" value="female"/> Female<br>
+                
+                <label for="dob" style="color: white;">Date of Birth:</label><br>
+                <input type="date" name="dob" id="dob"/><br>
+                
+                <label for="email" style="color: white;">Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email"/><br>
+                
+                <label for="mobile" style="color: white;">Mobile Number:</label><br>
+                <input type="text" name="mobile" id="mobile" placeholder="Enter Mobile Number"/><br>
+                
+                <label for="address" style="color: white;">Current Address:</label><br>
+                <input type="text" name="Address" id="address" placeholder="Enter Your Address"/><br>
+                
+                <label for="branch" style="color: white;">Branch:</label><br>
+                <select name="branch">
+                    <option value="option1">CSE</option>  
+                    <option value="option2">IT</option>  
+                    <option value="option3">CE</option>  
+                    <option value="option4">ECE</option>  
+                    <option value="option5">CS</option>  
+                </select><br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="/JS/stu-registration.js"></script>
+</body>
+</html>
