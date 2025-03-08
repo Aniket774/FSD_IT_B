@@ -1,16 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "My First MERN Project",
+  "description": "my first mern project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Users",
-    "and",
-    "Product"
-  ],
   "author": "Ashish Bajpai",
   "license": "ISC",
   "dependencies": {
